@@ -1,0 +1,328 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url("./assests/abstract-white-with-gold-glitter-background_53876-97493.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+.nav{
+  margin-top: 20px;
+}
+.nav a{
+  padding:30px;
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+  font-size: 22px;
+  font-family: sans-serif;
+}
+.nav a:hover{ 
+  color:#f8853e;
+}
+.nav img{
+  width:26px;
+  padding-left:30px;
+}
+.nav #cart{
+  width:60px
+}
+.nav #ring{
+  float:right;
+  margin-right: 7px;
+  width:50px;
+}
+.nav p{
+  float: right;
+  margin-right: 40px;
+  font-family: sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+}
+/* content */
+.content{
+  font-family: sans-serif;
+}
+.content img{
+  position: absolute;
+  top:20%;
+  left:7%;
+}
+.content h2{
+  position: absolute;
+  font-size: 40px;
+  font-weight: 400;
+  left:50%;
+  top:25%
+}
+.content h1{
+  position: absolute;
+  font-size: 66px;
+  font-weight: 780px;
+  left:50%;
+  top:30%;
+}
+.content p{
+  position: absolute;
+  font-size: 20px;
+  left:50%;
+  top:50%;
+}
+.content button{
+  position: absolute;
+  left:50%;
+  top:70%;
+  font-size: 18px;
+  color:white;
+  background-color: black;
+  padding:10px 34px 10px 34px;
+}
+.content button:hover{
+  background-color: white;
+  color:black;
+}
+/* images */
+.images{
+  margin-top: 40rem;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+}
+.images .jewell img{
+  width: 100px;
+  height: 100px;
+  margin: 40px;
+}
+.images .jewell{
+  box-shadow: 0 0 1px 1px rgb(132, 128, 128);
+  padding:0 30px 0 30px;
+} 
+.images .jewell:hover{
+  background-color:rgb(255, 255, 255);
+  box-shadow:0 1px 6px 4px rgb(99, 99, 99);
+}
+.images #p1{
+  color:#f8853e;
+  font-weight: 500;
+}
+
+/* content1 */
+.content{
+  font-family: sans-serif;
+}
+.content1 img{
+  position: absolute;
+  top:150%;
+  left:60%
+}
+.content1 h1{
+  position: absolute;
+  font-size: 40px;
+  font-weight: 200;
+  left:7%;
+  top:160%;
+}
+.content1 p{
+  position: absolute;
+  font-size: 18px;
+  left:7%;
+  top:170%;
+  width:650px
+}
+.content1 button{
+  position: absolute;
+  left:7%;
+  top:200%;
+  font-size: 18px;
+  color:white;
+  background-color: black;
+  padding:10px 34px 10px 34px;
+}
+.content1 button:hover{
+  background-color: white;
+  color:black;
+}
+
+/* images1 */
+#para1{
+  position: absolute;
+  font-size: 40px;
+  font-weight: 200;
+  left:7%;
+  top:228%;
+}
+.images1{
+  margin-top: 50rem;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+}
+.images1 .jewell img{
+  width: 200px;
+  height: 200px;
+  margin: 40px;
+}
+.images1 .jewell{
+  box-shadow:0 1px 6px 4px rgb(181, 179, 179);
+  padding:0 30px 30px 30px;
+} 
+.images1 #p1{
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+}
+.images1 #p2{
+  color:#f8853e;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+}
+.images1 button{
+  margin-left: 86px;
+  font-weight: 700;
+  font-size: 15px;
+  padding:10px 20px 10px 20px;
+  background-color: white;
+}
+.images1 button:hover{
+  color:#f36711;
+  border-color:#f36711;
+}
+.btn button{
+  margin-top: 5rem;
+  margin-left: 41rem;
+  font-size: 18px;
+  color:white;
+  background-color: black;
+  padding:10px 34px 10px 34px;
+}
+.btn button:hover{
+  background-color: white;
+  color:black;
+}
+/* ring_image */
+.ring_image img{
+  float: right;
+  margin-right: 8%;
+  margin-top: 10%;
+}
+.ring_image #Special{
+  color:#f8853e;
+  font-size: 29px;
+  position: absolute;
+  top:355%;
+  left:20%
+}
+.ring_image p{
+  font-size: 37px;
+  position: absolute;
+  top:360%;
+  left:17% ;
+}
+.ring_image button{
+  margin-left: 48px;
+  font-weight: 700;
+  font-size: 15px;
+  padding:10px 20px 10px 20px;
+  background-color: white;
+  position: absolute;
+  top:380%;
+  left:18% ;
+}
+.ring_image button:hover{
+  color:#f36711;
+  border-color:#f36711;
+}
+
+/* Contact */
+#Contactus{
+    position: absolute;
+    font-size: 40px;
+    font-weight: 200;
+    left:7%;
+    top:189rem;
+}
+.map{
+  position: absolute;
+  top:192rem;
+  left:50% ;
+}
+.map iframe{
+  width:600px;
+  height:500px;
+}
+.Contact{
+  position: absolute;
+  left:4%;
+  top:195rem;
+}
+.Contact .text{
+  display: block;
+  margin:50px;
+}
+.Contact input{
+  padding:16px;
+  width:350px;
+  border: none;
+  box-shadow: 0 5px 8px rgb(133, 130, 130);
+}
+.Contact ::placeholder{
+  font-size: 16px;
+  color:black;
+}
+.Contact button{
+  margin-top: 5rem;
+  margin-left: 32%;
+  font-size: 18px;
+  color:white;
+  background-color: black;
+  padding:10px 34px 10px 34px;
+}
+.Contact button:hover{
+  background-color: white;
+  color:black;
+}
+.color{
+  width:100%;
+  height:300px;
+  background-color: rgb(86, 85, 85);
+  position: absolute;
+  top:236rem;
+}
+.footer #footer1{
+  position: absolute;
+  top:242rem;
+  left:35%;
+}
+.footer #footer2{
+  position: absolute;
+  top:244rem;
+  left:34%;
+}
+.footer #footer3{
+  position: absolute;
+  top:242rem;
+  left:46%;
+}
+.footer #footer4{
+  position: absolute;
+  top:244rem;
+  left:42%;
+}
+.footer #footer5{
+  position: absolute;
+  top:243rem;
+  left:58%;
+}
+.footer #footer6{
+  position: absolute;
+  top:244rem;
+  left:55%;
+}
